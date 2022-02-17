@@ -69,6 +69,9 @@ function Login() {
         <Typography component="h1" variant="h5">
           Sign in
         </Typography>
+        <Typography component="h1" variant="h5" sx={{ fontSize: 12 }}>
+          User Name: test, Password: test
+        </Typography>
         <Box
           component="form"
           onSubmit={formik.handleSubmit}
